@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+                    /* lg screen*/
+@media (max-width :1200px)
+{
+  
+    
+    
+    .hobbies .hobbies-content .hobbies-icons li{
+        margin: 5px 5px;
+    }
+}
+
+                 /* md screen*/
+@media (max-width :991px){
+
+   
+     
+    
+}
+/*------------------------------------------------------------------------------------------*/
+/* 4. Screen Width 767px */
+/*------------------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+
+    .about .about-content .profile-info{
+       max-width: 460px;
+    }
+    .about .about-content .profile-list{
+        max-width: 460px;
+    }
+    .Education .education-content li .timeline{
+        width: 100%;
+    max-width: none;
+    margin: 25px 0;
+    z-index: 999;
+    }
+    .contact .contact-content form{
+        width: 100%;
+    }
+}
+@media (max-width :576px){
+
+    .navigation-bar{
+        display: none;
+    }
+    .Portfolio .portfolio-content .project-img-box img{
+        max-width: 80%;
+        margin: auto;
+    }
+    .Education .education-content li::before{
+        top: 4px;
+    }
+    .Portfolio .portfolio-content .project-img-box .overlay{
+        width: 80%;
+        left: 42px;
+    }
+   /*ssm*/
+}
+@media (max-width :480px){
+    .navigation-bar{
+        display: none;
+    }
+    .Portfolio .portfolio-content .project-img-box .overlay {
+        width: 80%;
+        left: 32px;
+    }
+}
+    /*xsm*/
+    @media (max-width: 441px){
+.Portfolio .portfolio-content .project-img-box .overlay {
+    width: 80%;
+    left: 41px;
+}
+ }
+ @media (max-width :360px){
+    .Portfolio .portfolio-content .project-img-box .overlay {
+        width: 80%;
+        left: 35px;
+ }
+}
+ @media (max-width :320px){
+    .Portfolio .portfolio-content .project-img-box .overlay {
+        width: 80%;
+        left: 32px;
+    
+    }
+ }
+
