@@ -710,61 +710,6 @@ body > section {
   display: block;
 }
 
-.hobbies .hobbies-content {
-  width: 80%;
-  max-width: 700px;
-  padding: 10px 20px;
-  margin: 0 auto 8px;
-  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  background-color: #494d5a;
-}
-
-.hobbies .hobbies-content p {
-  color: #9199af;
-  font-size: 14px;
-  line-height: 20px;
-  margin: 14px 0px;
-}
-
-.hobbies .hobbies-content .hobbies-icons {
-  margin: 20px 0 10px;
-  cursor: default;
-}
-
-.hobbies .hobbies-content .hobbies-icons li {
-  display: inline-block;
-  color: #9199af;
-  background-color: #3b3f4c;
-  margin: 0px 5px;
-}
-
-.hobbies .hobbies-content .hobbies-icons li i {
-  height: 60px;
-  width: 85px;
-  font-size: 30px;
-  margin: 5px;
-  border-radius: 2px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.hobbies .hobbies-content .hobbies-icons li span {
-  display: block;
-  width: 85px;
-  font-size: 12px;
-  text-transform: capitalize;
-  margin: -10px 5px 5px;
-  border-radius: 0 0 2px 2px;
-}
-
 .contact .contact-content {
   width: 80%;
   max-width: 700px;
