@@ -125,12 +125,14 @@ body > section {
     .profile-info {
       max-width: 320px;
       padding: 20px;
+      padding-bottom: 50px;
       margin: 0 auto;
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
       background-color: #494d5a;
       h1 {
         color: $mainColorH;
-        font-size: 27px;
+        padding-top: 10px;
+         font-size: 27px;
 
         &::after {
           content: "";
@@ -226,7 +228,7 @@ body > section {
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
       text-align: center;
       background-color: #494d5a;
-      padding-bottom: 91px;
+      padding-bottom: 25px;
 
       table {
         margin: auto;
@@ -297,6 +299,16 @@ body > section {
           }
         }
       }
+        .btn{
+          background-color: #333742;
+          color: #FFF;
+          font-weight: bold;
+          font-size: 15px;
+          padding: 10px 18px ;
+          margin: 15px 0px;
+          box-shadow: 1px 1px 1px 1px #333742;
+        }
+       
     }
   }
 }
