@@ -314,7 +314,7 @@ body > section {
   text-decoration: none;
 }
 
-.about .about-content .profile-list .btn {
+.about .about-content .btn {
   background-color: #333742;
   color: #FFF;
   font-weight: bold;
@@ -323,6 +323,14 @@ body > section {
   margin: 15px 0px;
   -webkit-box-shadow: 1px 1px 1px 1px #333742;
           box-shadow: 1px 1px 1px 1px #333742;
+  border-radius: 20px;
+}
+
+.about .about-content .btn:hover {
+  background-color: #2896ca;
+  color: #fff;
+  -webkit-box-shadow: 1px 1px 1px 1px #2896ca;
+          box-shadow: 1px 1px 1px 1px #2896ca;
 }
 
 .skills {
